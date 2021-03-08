@@ -25,8 +25,8 @@ def decrypt(text, s):
 
 
 # check the above function
-text = "Mj li leh ercxlmrk gsrjmhirxmep xs wec, li avsxi mx mr gmtliv, xlex mw, fc ws glerkmrk xli svhiv sj xli pixxivw sj xli eptlefix, xlex rsx e asvh gsyph fi qehi syx."
+msg = "Mj li leh ercxlmrk gsrjmhirxmep xs wec, li avsxi mx mr gmtliv, xlex mw, fc ws glerkmrk xli svhiv sj xli pixxivw sj xli eptlefix, xlex rsx e asvh gsyph fi qehi syx."
 s = 4
-print("Text  : " + text)
+print("Cipher  : " + msg)
 print("Shift : " + str(s))
-print("Cipher: " + decrypt(text, s))
+print("Text: " + decrypt(msg, s))
