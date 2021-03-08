@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    ".stylelintrc": "json",
+    "*.js": "javascript",
+    ".npmignore": "jsonc",
+    ".eslintrc": "jsonc",
+    ".prettierrc": "json",
+    ".graphqlconfig": "json",
+    "*.json": "jsonc",
+    "*.common": "shellscript",
+    "*.tpl": "yaml",
+    "iostream": "cpp"
+  }
+}
