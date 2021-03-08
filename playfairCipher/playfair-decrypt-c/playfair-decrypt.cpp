@@ -156,7 +156,7 @@ void decryptByPlayfairCipher(char str[], char key[])
 
   generateKeyTable(key, ks, keyT);
 
-  cout << generateKeyTable(key, ks, keyT);
+  // cout << generateKeyTable(key, ks, keyT);
 
   decrypt(str, keyT, ps);
 }
@@ -171,7 +171,8 @@ int main()
   printf("Key text: %s\n", key);
 
   // Ciphertext to be decrypted gatlmzclrqtx
-  strcpy(str, "gatlmzclrqtx");
+  // strcpy(str, "kgcfbobrygpdgaeynagkckrqsbplapnbcfznrpfkskmyfscfdzboskxibqmhboyqgakw");
+  strcpy(str, "pdfmdkkmhppdlukllkathppdimpqbocilkboqrrpnxnmchmvtcciorckmvzr");
   printf("Plain text: %s\n", str);
 
   // encrypt using Playfair Cipher

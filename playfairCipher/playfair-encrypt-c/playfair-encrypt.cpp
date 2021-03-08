@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SIZE 30
+#define SIZE 300
 
 // Function to convert the string to lowercase
 void toLowerCase(char plain[], int ps)
@@ -185,7 +185,8 @@ int main()
     printf("Key text: %s\n", key);
 
     // Plaintext to be encrypted
-    strcpy(str, "if he had anything confidential to say");
+    // strcpy(str, "If he had anything confidential to say he wrote it in cipher that is by so changing");
+    strcpy(str, "the order of the letters of the alphabet that not a word could be made out");
     printf("Plain text: %s\n", str);
 
     // encrypt using Playfair Cipher
