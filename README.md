@@ -1,1 +1,1 @@
-# encryption-decription-algorithms
+# encryption-decryption-algorithms
