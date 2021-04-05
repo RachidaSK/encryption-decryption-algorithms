@@ -2,7 +2,7 @@ import sys
 
 # S-Box
 sBox = [0x9, 0x4, 0xa, 0xb, 0xd, 0x1, 0x8, 0x5,
-         0x6, 0x2, 0x0, 0x3, 0xc, 0xe, 0xf, 0x7]
+        0x6, 0x2, 0x0, 0x3, 0xc, 0xe, 0xf, 0x7]
 
 # Inverse S-Box
 sBoxI = [0xa, 0x5, 0x9, 0xb, 0x1, 0x7, 0x8, 0xf,
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     print('\n')
 
     # used to convert to binary
-    getBin = lambda x: x >= 0 and str(bin(x))[2:] or "-" + str(bin(x))[3:]
+    def getBin(x): return x >= 0 and str(bin(x))[2:] or "-" + str(bin(x))[3:]
 
     # choice variable to select option from user
     choice = input('Press 1 to encrypt your 16-bit plaintext, 2 for decryption'
@@ -142,4 +142,4 @@ if __name__ == '__main__':
         print('Exiting program')
         sys.exit(1)
     else:
-        print('Invaild
+        print('Invalid')
